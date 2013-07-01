@@ -1,0 +1,31 @@
+{
+  "name": "node-pdiff",
+  "version": "0.1.0",
+  "description": "Perceptual Difference tool for node",
+  "main": "lib/node-pdiff.js",
+  "author": {
+    "name": "Steven Sojka"
+  },
+  "contributors": [
+    {
+      "name": "Steven Sojka",
+      "email": "steelsojka@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "pngjs": ">=0.4.0",
+    "webshot": "*",
+    "async": "*",
+    "lodash": ">=1.0.0",
+    "combined-stream": ">=0.0.4"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}
